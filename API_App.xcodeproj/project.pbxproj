@@ -14,6 +14,7 @@
 		068B7D512B89104000B84047 /* API_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B7D502B89104000B84047 /* API_AppTests.swift */; };
 		068B7D5B2B89104000B84047 /* API_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B7D5A2B89104000B84047 /* API_AppUITests.swift */; };
 		068B7D5D2B89104000B84047 /* API_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B7D5C2B89104000B84047 /* API_AppUITestsLaunchTests.swift */; };
+		068B7D6A2B8E5DC700B84047 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B7D692B8E5DC700B84047 /* ApiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		068B7D562B89104000B84047 /* API_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = API_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		068B7D5A2B89104000B84047 /* API_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_AppUITests.swift; sourceTree = "<group>"; };
 		068B7D5C2B89104000B84047 /* API_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		068B7D692B8E5DC700B84047 /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				068B7D3F2B89104000B84047 /* API_AppApp.swift */,
 				068B7D412B89104000B84047 /* ContentView.swift */,
+				068B7D692B8E5DC700B84047 /* ApiModel.swift */,
 				068B7D432B89104000B84047 /* Assets.xcassets */,
 				068B7D452B89104000B84047 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068B7D422B89104000B84047 /* ContentView.swift in Sources */,
+				068B7D6A2B8E5DC700B84047 /* ApiModel.swift in Sources */,
 				068B7D402B89104000B84047 /* API_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
